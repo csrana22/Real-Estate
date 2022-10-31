@@ -138,9 +138,8 @@ class RegisterSeller extends Component {
             return (
                 <div>
                     <div className="img-wrapper">
-                        <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" className="logo" />
                         <div className="wine-text-container">
-                            <div className="site-title wood-text">Land Registry</div>
+                            <div className="site-title wood-text">Real Estate Trading</div>
                         </div>
                     </div>
                     <div className="auth-wrapper">
@@ -163,9 +162,8 @@ class RegisterSeller extends Component {
             <div className="bodyC">
 
                 <div className="img-wrapper">
-                    <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" className="logo" />
                     <div className="wine-text-container">
-                        <div className="site-title wood-text">Land Registry</div>
+                        <div className="site-title wood-text">Real Estate Trading</div>
                     </div>
                 </div>
                 <div className="auth-wrapper">
@@ -176,7 +174,7 @@ class RegisterSeller extends Component {
                                 <div>
                                     <h1 style={{ color: "black" }}>
                                         Seller Registration
-                  </h1>
+                                    </h1>
                                 </div>
                             </div>
 
@@ -259,7 +257,7 @@ class RegisterSeller extends Component {
 
                                 <Button onClick={this.registerSeller} className="button-vote">
                                     Register as Seller
-                  </Button>
+                                </Button>
                             </div>
 
                         </div>

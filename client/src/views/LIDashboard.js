@@ -127,7 +127,7 @@ class LIDashboard extends Component {
                                     <div class="dashbord dashbord-skyblue">
                                         <div class="icon-section">
                                             <i class="fa fa-users" aria-hidden="true"></i><br />
-                                            <medium>Total Buyers</medium><br />
+                                        <medium>Total Buyers</medium><br />
                                             <p> {buyerarr} </p>
                                         </div>
                                         <div class="detail-section"><br />

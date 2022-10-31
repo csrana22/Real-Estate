@@ -49,7 +49,7 @@ function Footer() {
             href="https://www.creative-tim.com/?ref=bdr-user-archive-footer"
             target="_blank"
           >
-            Land Registration
+           Real Estate Trading
           </a>{" "}
           for a Step towards Digitalization.
         </div>

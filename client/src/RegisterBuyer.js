@@ -153,9 +153,8 @@ class RegisterBuyer extends Component {
                 <div className="bodyC">
 
                     <div className="img-wrapper">
-                        <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" className="logo" />
                         <div className="wine-text-container">
-                            <div className="site-title wood-text">Land Registry</div>
+                            <div className="site-title wood-text">Real Estate Trading</div>
                         </div>
                     </div>
                     <div className="auth-wrapper">
@@ -177,9 +176,8 @@ class RegisterBuyer extends Component {
         return (
             <div className="bodyC">
                 <div className="img-wrapper">
-                    <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" className="logo" />
                     <div className="wine-text-container">
-                        <div className="site-title wood-text">Land Registry</div>
+                        <div className="site-title wood-text">Real Estate Trading</div>
                     </div>
                 </div>
                 <div className="auth-wrapper">

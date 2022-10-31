@@ -84,7 +84,7 @@ function LI(props) {
         return routes[i].name;
       }
     }
-    return "Brand";
+    return "Real Estate Trading";
   };
   return (
     <BackgroundColorContext.Consumer>

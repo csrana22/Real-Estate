@@ -79,17 +79,16 @@ export default class Login extends Component {
 
                 <div className="bodyC">
                     <div className="img-wrapper">
-                        <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" className="logo" />
                         <div className="wine-text-container">
-                            <div className="site-title wood-text">Land Registry</div>
+                            <div className="site-title wood-text">Real Estate Trading</div>
                         </div>
                     </div>
                     <div className="auth-wrapper">
                         <div className="auth-inner">
                             <h1>You are already registered.</h1>
-                            <Button href="/Seller/SellerDashboard" disabled={!this.state.seller} className="btn-block" style={{ margin: "2px", backgroundColor: "peru" }} >Seller Dashboard</Button>
-                            <br /><Button href="/admin/dashboard" disabled={!this.state.buyer} className="btn-block" style={{ margin: "2px", backgroundColor: "peru" }}>Buyer Dashboard</Button>
-                            <br /><Button href="/LI/LIdashboard" disabled={!this.state.landInspector} className="btn-block" style={{ margin: "2px", backgroundColor: "peru" }}>Land Inspector Dashboard</Button>
+                            <Button href="/Seller/SellerDashboard" disabled={!this.state.seller} className="btn-block" style={{ margin: "2px", backgroundColor: "blue" }} >Seller Dashboard</Button>
+                            <br /><Button href="/admin/dashboard" disabled={!this.state.buyer} className="btn-block" style={{ margin: "2px", backgroundColor: "blue" }}>Buyer Dashboard</Button>
+                            <br /><Button href="/LI/LIdashboard" disabled={!this.state.landInspector} className="btn-block" style={{ margin: "2px", backgroundColor: "blue" }}>Land Inspector Dashboard</Button>
                         </div>
                     </div>
                 </div>
@@ -102,9 +101,8 @@ export default class Login extends Component {
                     <h3 style={{ color: "wheat" }}>Help?</h3>
                 </a>
                 <div className="img-wrapper">
-                    <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" className="logo" />
                     <div className="wine-text-container">
-                        <div className="site-title wood-text">Land Registry</div>
+                        <div className="site-title wood-text">Real Estate Trading</div>
                     </div>
                 </div>
                 <div className="auth-wrapper">
@@ -129,7 +127,7 @@ export default class Login extends Component {
                             </div>
 
                             <div>
-                                <button onClick={() => this.submit()} className="btn btn-primary btn-block" style={{ marginBottom: "10px", marginTop: "10px" }}>Register</button>
+                                <button onClick={() => this.submit()} className="btn btn-primary btn-block" style={{backgroundColor: "blue", marginBottom: "10px", marginTop: "10px" }}>Register</button>
                             </div>
                         </div>
                     </div>
